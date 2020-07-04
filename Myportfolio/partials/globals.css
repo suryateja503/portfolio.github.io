@@ -1,0 +1,38 @@
+/* Global Classes */ 
+@import url('D:\Myportfolio\partials\variables.css')
+
+
+.title-text{
+    font: normal bold 50px/ 72px var(--openSans);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Buttons */ 
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--openSans);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
